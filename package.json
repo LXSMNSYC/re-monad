@@ -1,0 +1,32 @@
+{
+  "name": "re-monad",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "LXSMNSYC (alexis.munsayac@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.8",
+    "bs-platform": "^5.0.2"
+  },
+  "description": "Monadic Types in Reason",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LXSMNSYC/re-monad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LXSMNSYC/re-monad/issues"
+  },
+  "homepage": "https://github.com/LXSMNSYC/re-monad#readme"
+}
